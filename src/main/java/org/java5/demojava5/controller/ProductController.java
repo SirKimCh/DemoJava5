@@ -76,6 +76,7 @@ public class ProductController {
         }
     }
 
+    //do i need this?
     //i dont know what i doing here
     @GetMapping("/delete/{id}")
     public String deleteProduct(@PathVariable Long id) {
